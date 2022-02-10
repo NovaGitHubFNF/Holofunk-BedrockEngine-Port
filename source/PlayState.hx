@@ -1269,10 +1269,10 @@ class PlayState extends MusicBeatState
 		iconP1.cameras = [camHUD];
 		iconP2.cameras = [camHUD];
 		scoreTxt.cameras = [camHUD];
-		judgementCounter.cameras = [camHUD];
-		beWatermark.cameras = [camHUD];
-		peWatermark.cameras = [camHUD];
-		songDisplay.cameras = [camHUD];
+		judgementCounter.cameras = [camOther];
+		beWatermark.cameras = [camOther];
+		peWatermark.cameras = [camOther];
+		songDisplay.cameras = [camOther];
 		hideBGOpacity.cameras = [camHUD];
 		laneunderlay.cameras = [camHUD];
 		laneunderlayOpponent.cameras = [camHUD];
